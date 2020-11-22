@@ -1,2 +1,5 @@
-<%= @users.each do |user| %>
+<% @users.each do |user| %>
+<%= link_to  "/" do %>
+<%= user.nickname %>
+<% end %>
 <% end %>
